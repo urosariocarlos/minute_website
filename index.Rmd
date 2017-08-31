@@ -7,6 +7,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+This is my file.
+
 It is very very easy to create a nice static website using RStudio.
 
 This document will take you through how to create your own static website and publish it on Github. You can use this website as a template to develop your own. 
