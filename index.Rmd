@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This is my file.
+This is my file. Testing to create the website. 
 
 It is very very easy to create a nice static website using RStudio.
 
