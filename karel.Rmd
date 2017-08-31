@@ -1,0 +1,20 @@
+---
+title: "karel"
+author: "karelman"
+date: "31 de agosto de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Karel's Minute website
+
+
+This is going to be a Website for the Research Output products.
+
+Info for mak your own site.
+
+Mi Infografía 
+<iframe align = "center" width = "1000" height = "1000" src="https://infogram.com/drones-cati-1gew2vkq7ry8mnj"/>

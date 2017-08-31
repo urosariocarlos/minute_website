@@ -1,5 +1,5 @@
 ---
-title: "Writing a Web Page"
+title: "**Writing a Web Page**"
 output: html_document
 ---
 

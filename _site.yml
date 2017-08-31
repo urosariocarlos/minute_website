@@ -29,4 +29,7 @@ navbar:
           href: yourfile.html
     - text: "Resources"
       href: resources.html
+      menu:
+    - text: Karel´s
+      href: karel.html
 output_dir: "."

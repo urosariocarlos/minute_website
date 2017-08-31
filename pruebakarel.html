@@ -11,7 +11,7 @@
 
 
 
-<title>Writing a Web Page</title>
+<title>Página de Prueba</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -244,36 +244,29 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><strong>Writing a Web Page</strong></h1>
+<h1 class="title toc-ignore">Página de Prueba</h1>
 
 </div>
 
 
-<p>Web pages are written in Rmarkdown. This is basically a text file that allows you to include images and R code chunks. The main things you need to know to write a document are:</p>
-<ol style="list-style-type: decimal">
-<li>Use <code>#</code> to create headings.</li>
-</ol>
-<div id="this-is-my-big-heading-write-this-is-my-big-heading" class="section level1">
-<h1>This is my big heading <code>write: # This is my big heading</code></h1>
-<div id="this-is-my-medium-heading-write-this-is-my-medium-heading" class="section level2">
-<h2>This is my medium heading <code>write: ## This is my medium heading</code></h2>
-<div id="this-is-my-small-heading-write-this-is-my-small-heading" class="section level3">
-<h3>This is my small heading <code>write: ### This is my small heading</code></h3>
-<ol start="2" style="list-style-type: decimal">
-<li>Useful markup</li>
-</ol>
-<ul>
-<li>I am a bullet point <code>write: - I am a bullet point</code></li>
-<li><em>I am in italics</em> <code>write: *I am in italics*</code></li>
-<li><strong>I am in bold</strong> <code>write: **I am in bold**</code></li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
-<li>Links</li>
-</ol>
-<p><a href="https://www.google.com">Google</a> <code>write: [Google](https://www.google.com)</code></p>
-<p>Using this simple markup you can write most web pages. For images and embedding see the next pages.</p>
+<div id="r-markdown" class="section level2">
+<h2>R Markdown</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)</code></pre>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
 </div>
-</div>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="pruebakarel_files/figure-html/pressure-1.png" width="672" /></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 </div>
 
 
